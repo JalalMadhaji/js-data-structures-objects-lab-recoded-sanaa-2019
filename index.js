@@ -1,4 +1,6 @@
 // Write your solution in this file!
+const driver = {car:"mercedes",year:"2019"};
+
 function updateDriverWithKeyAndValue(driver,key,value){
   return Object.assign({},driver,{key:value});
 }
